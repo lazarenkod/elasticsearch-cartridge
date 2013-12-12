@@ -1,0 +1,7 @@
+/domains/domain1/config/local-password
+/domains/domain1/config/pid.prev
+/domains/domain1/config/lockfile
+/domains/domain1/config/pid
+/domains/domain1/logs/server.log
+/domains/domain1/osgi-cache
+/usr/glassfish/lib/registration/.ping
