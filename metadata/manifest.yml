@@ -44,16 +44,9 @@ Group-Overrides:
     - web_proxy
 Endpoints:
   - Private-IP-Name:   IP
-    Private-Port-Name: HTTP_PORT
+    Private-Port-Name: ELASTICSEARCH_PORT
     Private-Port:      9200
-    Public-Port-Name:  HTTP_PROXY_PORT
-    Protocols:
-      - http
-    Options:
-      primary: true
-    Mappings:
-      - Frontend:      ""
-        Backend:       ""
+    Public-Port-Name:  ELASTICSEARCH_PROXY_PORT
   - Private-IP-Name:   IP
     Private-Port-Name: NODE_COMMUNICATION_PORT
     Private-Port:      9300
