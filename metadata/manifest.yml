@@ -39,9 +39,6 @@ Subscribes:
   set-env:
     Type: ENV:*
     Required: false
-Group-Overrides:
-  - components:
-    - web_proxy
 Endpoints:
   - Private-IP-Name:   IP
     Private-Port-Name: ELASTICSEARCH_PORT
