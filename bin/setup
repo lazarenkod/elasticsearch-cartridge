@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+echo "Installing action hooks"
+cp -f ${OPENSHIFT_ELASTICSEARCH_DIR}template/.openshift/action_hooks/* ${OPENSHIFT_REPO_DIR}.openshift/action_hooks/
 echo "setup completed"
 
 exit 0
