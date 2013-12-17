@@ -10,7 +10,6 @@ License: CDDL 1.1
 Vendor:  apache
 Source-Url: https://github.com/medisite/elasticsearch-cartridge.git
 Categories:
-  - service
   - java
   - elasticsearch
   - embedded
@@ -43,7 +42,6 @@ Endpoints:
   - Private-IP-Name:   IP
     Private-Port-Name: ELASTICSEARCH_PORT
     Private-Port:      9200
-    Public-Port-Name:  ELASTICSEARCH_PROXY_PORT
   - Private-IP-Name:   IP
     Private-Port-Name: NODE_COMMUNICATION_PORT
     Private-Port:      9300
