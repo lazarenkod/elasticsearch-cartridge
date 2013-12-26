@@ -219,7 +219,7 @@ network.host: OPENSHIFT_INTERNAL_IP
 
 # Set a custom port to listen for HTTP traffic:
 #
-# http.port: 9200
+http.port: 80
 
 # Set a custom allowed content length:
 #
