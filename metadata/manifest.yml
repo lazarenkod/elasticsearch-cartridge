@@ -8,7 +8,7 @@ Version: '0.90.7'
 Versions: ['0.90.7']
 License: CDDL 1.1
 Vendor:  apache
-Source-Url: https://github.com/medisite/elasticsearch-cartridge.git
+Source-Url: https://github.com/lazarenkod/elasticsearch-cartridge.git
 Categories:
   - java
   - elasticsearch
